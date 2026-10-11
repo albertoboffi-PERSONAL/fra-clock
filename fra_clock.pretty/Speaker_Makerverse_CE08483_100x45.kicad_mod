@@ -1,0 +1,13 @@
+(footprint "Speaker_Makerverse_CE08483_100x45"
+	(version 20250114)
+	(generator "fra_clock_art")
+	(layer "F.Cu")
+	(descr "Makerverse enclosed speaker 8 ohm 5 W (Core Electronics CE08483): 100x45x21 mm, mounting 91.2x36.2 mm, 2x 35 mm cones at 27.5 mm from the ends")
+	(property "Reference" "LS1" (at 0 -24.5 0) (layer "F.Fab") (hide yes) (uuid "18d8dc31-fda8-4c1f-8119-b1d9d94260aa") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "CE08483" (at 0 24.5 0) (layer "F.Fab") (hide yes) (uuid "7bc2b475-610a-410d-ac5f-eb31db29f1c2") (effects (font (size 1 1) (thickness 0.15))))
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect (start -50 -22.5) (end 50 22.5) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "8a4ab8b5-bdf4-42eb-af03-999d86f97179"))
+	(fp_circle (center -22.5 0) (end -5.0 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "940d492c-8e80-43d0-ba9f-f0fe697e8871"))
+	(fp_circle (center 22.5 0) (end 40.0 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab") (uuid "5020afee-780d-4e28-bbfb-be2051122920"))
+	(model "${KIPRJMOD}/3d/Speaker_Makerverse_CE08483.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)
