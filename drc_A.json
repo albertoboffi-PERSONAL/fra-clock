@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-11T17:54:03",
+    "date": "2026-10-11T18:45:17",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -410,7 +410,7 @@
                         "x": 100.5,
                         "y": 320.7
                     },
-                    "uuid": "78894bc2-2d0c-4d14-ab10-e7bdda16f748"
+                    "uuid": "7340456d-7edb-40eb-8602-790e9b2be4f0"
                 },
                 {
                     "description": "Pad 1 [+3V3] of R9 on F.Cu",
@@ -433,7 +433,7 @@
                         "x": 103.5,
                         "y": 320.3
                     },
-                    "uuid": "a1c03007-bcf4-49b4-a15a-b8020b081311"
+                    "uuid": "1ea01963-55b4-42dc-b7c7-2b54cc5bf16e"
                 },
                 {
                     "description": "Pad 1 [+3V3] of R3 on F.Cu",

@@ -25,6 +25,14 @@ def items():
                                    ((82.5, 280.75), (80.6, 280.75), "g_u6_13")]:
         S((px, py), (vx, vy), tg)
     S((81.2, 277.75), (79.9, 277.75), "g_c8")
+    # U6 GND spine under the body (F.Cu) tying C8.2 / U6.1 / U6.4 / U6.7 / U6.10 / U6.13 vias,
+    # and U6.7 tied to the ring GND via of D541 (bottom perimeter = always in the main B.Cu plane)
+    it += T("F.Cu", G, 0.4, [(79.9, 277.75), (79.55, 278.1), (79.55, 287.1)], "g_u6_spine")
+    it += T("F.Cu", G, 0.4, [(79.55, 280.75), (80.6, 280.75)], "g_u6_spine13")
+    it += T("F.Cu", G, 0.4, [(79.55, 284.56), (80.6, 284.56)], "g_u6_spine10")
+    it += T("F.Cu", G, 0.4, [(77.55, 287.1), (77.55, 289.9), (77.05, 290.4)], "g_u6_ring")
+    # C69.2 (B.Cu pad) tied on B.Cu to the C4.2 GND vias
+    it += T("B.Cu", G, 0.6, [(87.5, 276.0), (89.3, 277.8), (90.55, 278.8)], "g_c69_c4")
     S((91.85, 279.25), (90.55, 278.8), "g_c4a")
     S((91.85, 279.25), (90.55, 280.0), "g_c4b")
     # U1 / U5 area
