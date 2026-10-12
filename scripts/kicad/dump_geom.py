@@ -1,5 +1,5 @@
 import pcbnew, json, sys
-b = pcbnew.LoadBoard(sys.argv[1] if len(sys.argv) > 1 else "fra_clock.kicad_pcb")
+b = pcbnew.LoadBoard(sys.argv[1] if len(sys.argv) > 1 else "hardware/fra_clock.kicad_pcb")
 mm = pcbnew.ToMM
 L = b.GetLayerName
 def polypts(sps):

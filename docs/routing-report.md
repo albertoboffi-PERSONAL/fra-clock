@@ -1,9 +1,11 @@
 # fra_clock — Report di routing (KiCad 10)
 
-Data: 2026-10-11 · Progetto: `~/Documents/30-PERSONAL/fra_pcb_gift/kicad/fra_clock/` · Board: `fra_clock.kicad_pcb`
+Data: 2026-10-11 (aggiornato 2026-10-12) · Board: `hardware/fra_clock.kicad_pcb`
+
+> Percorsi e hash dei commit sono aggiornati alla struttura della repo GitHub `fra-clock` (riorganizzata il 2026-10-12; la storia è stata riscritta solo nell'email dell'autore, quindi gli hash differiscono da quelli della repo locale originale).
 Coordinate nel report: **relative all'angolo (50, 50)** come nel brief (assoluta = relativa + 50).
 
-Fonti dei numeri riportati: `drc_00_baseline.json`, `drc_A.json`, `drc_B.json`, `drc_D.json`, `tools/drc_B_parity.json`, `tools/verify_B.json`, `tools/verify_D.json` (script `scripts/verify.py`), `tools/keepcheck_D.json`, `git log`.
+Fonti dei numeri riportati: `docs/checks/drc_00_baseline.json`, `docs/checks/drc_A.json`, `docs/checks/drc_B.json`, `docs/checks/drc_D.json`, `docs/checks/drc_E.json`, `docs/checks/drc_B_parity.json`, `docs/checks/verify_B.json`, `docs/checks/verify_D.json`, `docs/checks/verify_E.json` (script `scripts/kicad/verify.py`), `docs/checks/keepcheck_D.json`, `git log`.
 
 ## 1. Strumenti e versioni
 
@@ -13,7 +15,7 @@ Fonti dei numeri riportati: `drc_00_baseline.json`, `drc_A.json`, `drc_B.json`, 
 | Python KiCad + `pcbnew` | Python 3.9 bundled — `.../Frameworks/Python.framework/Versions/Current/bin/python3`, `pcbnew.Version()` = 10.0.5 (import da Python esterno OK, `ExportSpecctraDSN`/`ImportSpecctraSES` presenti) |
 | Java | OpenJDK 27 (Homebrew, `/opt/homebrew/opt/openjdk/bin/java`, nessun link in `/usr/bin`) |
 | Freerouting | 2.5.0 (release del 2026-10-05), jar in `tools/freerouting/` (escluso da git). SHA-256 `f6f51bb0…5de3c7` |
-| Router/verifiche ausiliarie | script Python propri (A* su griglia 0.1 mm + DRC locale con shapely) in `scripts/phaseA/` e `scripts/phaseB/` |
+| Router/verifiche ausiliarie | script Python propri (A* su griglia 0.1 mm + DRC locale con shapely) in `scripts/routing/phase_a/` e `scripts/routing/phase_b/` |
 
 Telemetria di Freerouting: disattivata dal 2° lancio in poi (`--profile.allow_telemetry=false --usage_and_diagnostic_data.disable_analytics=true`). **Il primo lancio di prova è partito con le impostazioni di default (telemetria attiva).**
 
@@ -22,10 +24,10 @@ Telemetria di Freerouting: disattivata dal 2° lancio in poi (`--profile.allow_t
 ### Fase 0 — Preparazione
 - KiCad aveva il progetto aperto: chiuso da te su richiesta prima di qualsiasi modifica.
 - `git init` (repo locale, identità locale *Alberto Boffi*), `.gitignore` per `.history/`, lock, `tools/`, `*.ses`.
-- DRC di partenza → `drc_00_baseline.json`.
+- DRC di partenza → `docs/checks/drc_00_baseline.json`.
 
 ### Fase A — Routing critico (gruppo `CRITICAL_AUTO`, script, nessun autorouter)
-Geometria generata da script (`scripts/phaseA/*.py` → `scripts/critical.json`), applicata con `scripts/apply_group.py` (rilanciabile: cancella e ricrea il gruppo), zone riempite con `kicad-cli pcb drc --refill-zones --save-board`.
+Geometria generata da script (`scripts/routing/phase_a/*.py` → `scripts/routing/data/critical.json`), applicata con `scripts/kicad/apply_group.py` (rilanciabile: cancella e ricrea il gruppo), zone riempite con `kicad-cli pcb drc --refill-zones --save-board`.
 Elementi a fine Fase A: 208 piste, 63 via; dopo lo spostamento di C69 (§8): **210 piste, 67 via**.
 
 | Collegamento | Realizzazione | Larghezze |
@@ -44,7 +46,7 @@ Elementi a fine Fase A: 208 piste, 63 via; dopo lo spostamento di C69 (§8): **2
 | Via GND | una via 0.6/0.3 per ogni pad GND non della corona; due per C4, C3, C2, C6, C71, C72; EP di U101/U102 con 2 via nel pad + pin GND legati all'EP | 0.25–0.4 |
 
 ### Fase B — Resto del routing (gruppo `FREEROUTE_AUTO`)
-Flusso: export DSN da una **copia in memoria** della board con tutto bloccato (`scripts/export_dsn.py`) → `scripts/dsn_prepare.py` → Freerouting headless (`scripts/run_freerouting.sh`, 20 passate, fanout disattivato) → conversione SES→JSON (`ses2json.py`) → correzioni con il router A* (`scripts/phaseB/fix_B2.py`) → allargamento dei neck-down dove possibile (`widen.py`) → applicazione con lo stesso `apply_group.py`.
+Flusso: export DSN da una **copia in memoria** della board con tutto bloccato (`scripts/kicad/export_dsn.py`) → `scripts/routing/dsn_prepare.py` → Freerouting headless (`scripts/routing/run_freerouting.sh`, 20 passate, fanout disattivato) → conversione SES→JSON (`ses2json.py`) → correzioni con il router A* (`scripts/routing/phase_b/fix_B2.py`) → allargamento dei neck-down dove possibile (`widen.py`) → applicazione con lo stesso `apply_group.py`.
 **Non ho usato `ImportSpecctraSES`**: in KiCad cancella tutte le piste esistenti e le reimporta fuori dai gruppi, il che avrebbe alterato `RING_AUTO`.
 
 Vincoli aggiunti al DSN (Freerouting non li conosce dal file KiCad):
@@ -60,25 +62,25 @@ Elementi finali: **435 piste, 54 via**.
 
 | | Errori | Unconnected | Warning |
 |---|---|---|---|
-| Baseline (`drc_00_baseline.json`) | 0 | 133 | 18 = 14 `lib_footprint_mismatch` + 4 `via_dangling` (via d'ingresso catene) |
-| Dopo Fase A (`drc_A.json`) | 0 | 49 (solo net della Fase B) | 18 = 14 `lib_footprint_mismatch` + 4 `via_dangling` |
-| Dopo Fase B (`drc_B.json`) | **0** | **0** | **14 `lib_footprint_mismatch`** |
+| Baseline (`docs/checks/drc_00_baseline.json`) | 0 | 133 | 18 = 14 `lib_footprint_mismatch` + 4 `via_dangling` (via d'ingresso catene) |
+| Dopo Fase A (`docs/checks/drc_A.json`) | 0 | 49 (solo net della Fase B) | 18 = 14 `lib_footprint_mismatch` + 4 `via_dangling` |
+| Dopo Fase B (`docs/checks/drc_B.json`) | **0** | **0** | **14 `lib_footprint_mismatch`** |
 
-Parità con lo schematico (`kicad-cli pcb drc --schematic-parity`, `tools/drc_B_parity.json`): 0 problemi.
+Parità con lo schematico (`kicad-cli pcb drc --schematic-parity`, `docs/checks/drc_B_parity.json`): 0 problemi.
 
 ## 4. Criteri di accettazione
 
 | Criterio | Esito | Verifica |
 |---|---|---|
-| DRC 0 errori | ✅ | `drc_B.json` |
-| Warning ammessi solo U3 | ⚠️ 13 in più, vedi sotto | `drc_B.json` |
-| 0 unconnected | ✅ | `drc_B.json` |
-| Niente rame F.Cu né via in FOTO | ✅ (0 piste F.Cu, 0 via; distanza minima del rame F.Cu dal bordo FOTO 0.43 mm) | `scripts/phaseB/keepcheck.py` + DRC rule area |
+| DRC 0 errori | ✅ | `docs/checks/drc_B.json` |
+| Warning ammessi solo U3 | ⚠️ 13 in più, vedi sotto | `docs/checks/drc_B.json` |
+| 0 unconnected | ✅ | `docs/checks/drc_B.json` |
+| Niente rame F.Cu né via in FOTO | ✅ (0 piste F.Cu, 0 via; distanza minima del rame F.Cu dal bordo FOTO 0.43 mm) | `scripts/routing/phase_b/keepcheck.py` + DRC rule area |
 | Niente rame in NFC e zona antenna | ✅ (0 elementi) | come sopra |
 | Sagome speaker: nessun rame F.Cu nuovo | ✅ (0 piste, 0 via) | come sopra |
-| `RING_AUTO` invariato | ✅ 2517 piste + 367 via, geometria identica elemento per elemento rispetto al commit `pre-routing` | `tools/verify_B.json` |
-| Nessun componente spostato | ✅ (0 footprint con posizione/rotazione/lato diversi) | `tools/verify_B.json` |
-| Larghezze alimentazioni | ✅ come da tabella §2 | `tools/verify_B.json` (`widths`) |
+| `RING_AUTO` invariato | ✅ 2517 piste + 367 via, geometria identica elemento per elemento rispetto al commit `pre-routing` | `docs/checks/verify_B.json` |
+| Nessun componente spostato | ✅ (0 footprint con posizione/rotazione/lato diversi) | `docs/checks/verify_B.json` |
+| Larghezze alimentazioni | ✅ come da tabella §2 | `docs/checks/verify_B.json` (`widths`) |
 
 **Warning `lib_footprint_mismatch` oltre U3 (13):** D317, D318, D319, D426, D427, D428, D526 (WS2812B-2020) e C216, C318, C319, C426, C427, C428 (0402). Sono **già presenti nella baseline**, riguardano footprint della corona che non dovevo toccare; non li ho modificati.
 
@@ -99,11 +101,14 @@ Parità con lo schematico (`kicad-cli pcb drc --schematic-parity`, `tools/drc_B_
 
 | Hash | Messaggio |
 |---|---|
-| `a861094` | pre-routing |
-| `0e0e22c` | Phase A: critical routing (CRITICAL_AUTO) - power, USB, audio outputs, GND vias |
-| `7363f8d` | Phase B: Freerouting 2.5.0 + scripted fixes (FREEROUTE_AUTO), GND plane continuity |
-| `76d5e0a` | docs: ROUTING_REPORT.md |
-| (§8) | Art + 3D: foto sul fronte, speaker Makerverse sul fronte, C69 sul fronte a destra di J1 |
+| `8a86c4b` | pre-routing |
+| `a22fa12` | Phase A: critical routing (CRITICAL_AUTO) - power, USB, audio outputs, GND vias |
+| `33cb8d0` | Phase B: Freerouting 2.5.0 + scripted fixes (FREEROUTE_AUTO), GND plane continuity |
+| `2e2b028` | docs: ROUTING_REPORT.md |
+| `465a5c6` | Art + 3D: foto sul fronte, speaker Makerverse sul fronte, C69 sul fronte a destra di J1 |
+| `3c2f798` | 3D: modelli LCSC/EasyEDA (§9) |
+| `f2e144c`, `8ff1b95` | Production: Gerber, forature, BOM/CPL JLCPCB (§10–11) |
+| (ultimo) | Riorganizzazione della repo per GitHub |
 
 ## 7. Stato
 
@@ -116,14 +121,14 @@ Richiesta: foto come footprint su F.Cu + F.Mask visibile in 3D, volti al centro,
 
 | Elemento | Realizzazione | File |
 |---|---|---|
-| Foto | `art/foto.jpeg` → crop (0,190)–(665,808) px, autocontrast + unsharp + gamma 1.1, dithering Floyd–Steinberg a 0.35 mm/pixel → 33 985 rettangoli su F.Cu e F.Mask (rame dorato esposto = chiaro). Footprint `ART1` (board-only, nessuna net) centrato sulla FOTO (105, 142), stessa area della zona FOTO | `scripts/art/make_art.py`, `scripts/art/gen_fp.py`, `fra_clock.pretty/ART_FOTO.kicad_mod` |
-| Speaker | Footprint `LS1` (105, 36.5) e `LS2` (105, 247.5) sul **fronte**, solo F.Fab + modello 3D; fori di fissaggio 91.2 × 36.2 mm coincidenti con H3–H6 / H9–H12. Dimensioni dal datasheet CE08483: 100 × 45 × 21 mm, 2 coni Ø35 | `fra_clock.pretty/Speaker_Makerverse_CE08483_100x45.kicad_mod`, `3d/Speaker_Makerverse_CE08483.wrl` |
+| Foto | `art/source/foto.jpeg` → crop (0,190)–(665,808) px, autocontrast + unsharp + gamma 1.1, dithering Floyd–Steinberg a 0.35 mm/pixel → 33 985 rettangoli su F.Cu e F.Mask (rame dorato esposto = chiaro). Footprint `ART1` (board-only, nessuna net) centrato sulla FOTO (105, 142), stessa area della zona FOTO | `scripts/art/make_art.py`, `scripts/art/gen_fp.py`, `hardware/fra_clock.pretty/ART_FOTO.kicad_mod` |
+| Speaker | Footprint `LS1` (105, 36.5) e `LS2` (105, 247.5) sul **fronte**, solo F.Fab + modello 3D; fori di fissaggio 91.2 × 36.2 mm coincidenti con H3–H6 / H9–H12. Dimensioni dal datasheet CE08483: 100 × 45 × 21 mm, 2 coni Ø35 | `hardware/fra_clock.pretty/Speaker_Makerverse_CE08483_100x45.kicad_mod`, `hardware/3d/Speaker_Makerverse_CE08483.wrl` |
 | Gruppo | `ART_3D` (ART1, LS1, LS2), elementi bloccati | `scripts/art/place_art.py` |
 | Rule area FOTO | consentiti i footprint (necessario per ART1); restano vietati piste, via, pad e riempimenti | — |
 | Libreria | `fp-lib-table` di progetto: `fra_clock` → `${KIPRJMOD}/fra_clock.pretty` | — |
-| C69 | Sul fronte a (138, 284.8), +5V (pad 1) a est; collegamenti rigenerati in `CRITICAL_AUTO` (`scripts/phaseA/pa_pwr.py`, `pa_gnd.py`) | `scripts/art/move_c69.py` |
+| C69 | Sul fronte a (138, 284.8), +5V (pad 1) a est; collegamenti rigenerati in `CRITICAL_AUTO` (`scripts/routing/phase_a/pa_pwr.py`, `pa_gnd.py`) | `scripts/art/move_c69.py` |
 
-Verifiche dopo §8 (`drc_D.json`, `tools/verify_D.json`, `tools/keepcheck_D.json`):
+Verifiche dopo §8 (`docs/checks/drc_D.json`, `docs/checks/verify_D.json`, `docs/checks/keepcheck_D.json`):
 
 | Criterio | Esito |
 |---|---|
@@ -133,11 +138,11 @@ Verifiche dopo §8 (`drc_D.json`, `tools/verify_D.json`, `tools/keepcheck_D.json
 | Componenti spostati rispetto a `pre-routing` | solo **C69** (approvato) |
 | Rame F.Cu / via in FOTO, rame in NFC/antenna, rame nuovo F.Cu sotto gli speaker | 0 / 0 / 0 / 0 |
 
-Note: la sezione "Rame in antenna" di `verify.py` segnala 5 elementi solo per sovrapposizione di bounding-box (stessa lista già in `verify_B.json`); il controllo geometrico preciso (`keepcheck`) dà 0. I render 3D sono in `tools/render_D_top.png`, `tools/render_D_iso.png`, `tools/render_D_bottom.png` (esclusi da git).
+Note: la sezione "Rame in antenna" di `verify.py` segnala 5 elementi solo per sovrapposizione di bounding-box (stessa lista già in `verify_B.json`); il controllo geometrico preciso (`keepcheck`) dà 0. I render 3D aggiornati (con i modelli del §9) sono in `docs/images/render_top.png` e `docs/images/render_iso.png`.
 
 ## 9. Modelli 3D mancanti (2026-10-12)
 
-Diversi footprint della libreria KiCad puntavano a modelli 3D che non ci sono nella libreria 3D di KiCad 10.0.5 installata. Ho scaricato i modelli da LCSC/EasyEDA con `easyeda2kicad` 1.0.1 (installato da te): file STEP + WRL in `3d/lcsc/lcsc.3dshapes/`. Li ho assegnati ai footprint della scheda con `scripts/art/set_models.py`.
+Diversi footprint della libreria KiCad puntavano a modelli 3D che non ci sono nella libreria 3D di KiCad 10.0.5 installata. Ho scaricato i modelli da LCSC/EasyEDA con `easyeda2kicad` 1.0.1 (installato da te): file STEP + WRL in `hardware/3d/lcsc/lcsc.3dshapes/`. Li ho assegnati ai footprint della scheda con `scripts/art/set_models.py`.
 
 | Rif. | Componente | Codice LCSC | Modello | Offset / rotazione |
 |---|---|---|---|---|
@@ -149,11 +154,11 @@ Diversi footprint della libreria KiCad puntavano a modelli 3D che non ci sono ne
 
 Speaker LS1/LS2: resta il modello che ho costruito io dal disegno Core Electronics (non esiste un 3D ufficiale del CE08483). Senza modello, com'è normale: fori di montaggio, test point, ART1.
 
-Verifiche (`drc_E.json`, `tools/verify_E.json`): 0 errori, 0 unconnected, parità con lo schematico 0, gli stessi 14 `lib_footprint_mismatch` della baseline. `RING_AUTO` identico; nessun componente spostato oltre C69 (§8). Render: `tools/render_E_top.png`, `tools/render_E_iso.png`.
+Verifiche (`docs/checks/drc_E.json`, `docs/checks/verify_E.json`): 0 errori, 0 unconnected, parità con lo schematico 0, gli stessi 14 `lib_footprint_mismatch` della baseline. `RING_AUTO` identico; nessun componente spostato oltre C69 (§8). Render: `docs/images/render_top.png`, `docs/images/render_iso.png`.
 
 ## 10. Gerber e forature (2026-10-12, su tua autorizzazione)
 
-Generati con `kicad-cli` 10.0.5 dalla board al commit `74a49e1` (git pulito), in `production/gerber/`. Pacchetto da caricare: `production/fra_clock_gerber_jlcpcb.zip`.
+Generati con `kicad-cli` 10.0.5 dalla board al commit `3c2f798` (git pulito), in `production/gerber/`. Pacchetto da caricare: `production/fra_clock_gerber_jlcpcb.zip`.
 
 | Impostazione | Valore |
 |---|---|
@@ -164,7 +169,7 @@ Generati con `kicad-cli` 10.0.5 dalla board al commit `74a49e1` (git pulito), in
 | Fori PTH | 0.30 mm × 483, 0.40 × 17, 0.60 × 4, 3.20 × 6 (M3), 4.30 × 8 (M4) |
 | Fori NPTH | 0.65 mm × 2 (perni USB-C) |
 
-Controllo: render dei Gerber con gerbonara 1.6.3 (`production/gerber_top.png`, `production/gerber_bottom.png`). Rame, maschera, serigrafia, fori e contorno coincidono con la board (foto esposta sul fronte, piano GND sul retro, zone NFC/antenna libere).
+Controllo: render dei Gerber con gerbonara 1.6.3 (`production/preview/gerber_top.png`, `production/preview/gerber_bottom.png`). Rame, maschera, serigrafia, fori e contorno coincidono con la board (foto esposta sul fronte, piano GND sul retro, zone NFC/antenna libere).
 
 Da scegliere al momento dell'ordine (non sono nei Gerber):
 - **Finitura**: ENIG dà la foto dorata e piatta come nei render; con HASL il rame esposto della foto diventa stagno argentato e meno uniforme.
@@ -175,7 +180,7 @@ Da scegliere al momento dell'ordine (non sono nei Gerber):
 
 ## 11. BOM e CPL per l'assemblaggio JLCPCB (2026-10-12)
 
-File: `production/fra_clock_BOM_JLCPCB.csv` (24 righe, 408 componenti) e `production/fra_clock_CPL_JLCPCB.csv` (408 posizioni, tutte sul lato Top). Generati dalla board con `scripts/production/dump_fps.py` + `scripts/production/make_bom_cpl.py` (rigenerabili).
+File: `production/assembly/fra_clock_BOM_JLCPCB.csv` (24 righe, 408 componenti) e `production/assembly/fra_clock_CPL_JLCPCB.csv` (408 posizioni, tutte sul lato Top). Generati dalla board con `scripts/production/dump_fps.py` + `scripts/production/make_bom_cpl.py` (rigenerabili).
 
 Esclusi da BOM e CPL: ART1, LS1/LS2 (board-only), fori H1–H14, test point TP1–TP3 (solo pad). Il tag NFC (NFC1 nello schematico, "NTAG216 tag") non ha footprint: è un adesivo da applicare a parte.
 

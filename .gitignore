@@ -8,3 +8,9 @@ fra_clock-backups/
 _autosave-*
 *.ses
 fp-info-cache
+*-backups/
+*.bundle
+__MACOSX/
+*.zip.tmp
+__pycache__/
+*.pyc

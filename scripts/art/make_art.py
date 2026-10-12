@@ -3,7 +3,8 @@ from PIL import Image, ImageOps, ImageFilter
 PX = float(sys.argv[1]) if len(sys.argv) > 1 else 0.3
 W_MM, H_MM = 170 - 1.2, 158 - 1.2          # FOTO zone 170x158 minus 0.6 mm inset per side
 nx, ny = int(W_MM / PX), int(H_MM / PX)
-im = Image.open("/mnt/user-data/uploads/fra_clock/art/foto.jpeg").convert("L")
+SRC = sys.argv[2] if len(sys.argv) > 2 else "art/source/foto.jpeg"   # run from repo root
+im = Image.open(SRC).convert("L")
 w, h = im.size
 ch = round(w * ny / nx)                     # crop height for full width
 y0 = 190                                    # keeps the top head (hair starts ~y=218)

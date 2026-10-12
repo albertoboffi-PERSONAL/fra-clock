@@ -1,6 +1,6 @@
 #!/bin/zsh
-# usage: scripts/run_freerouting.sh <in.dsn> <out.ses> <log> [max_passes]
-cd "$(dirname "$0")/.."
+# usage: scripts/routing/run_freerouting.sh <in.dsn> <out.ses> <log> [max_passes]
+cd "$(dirname "$0")/../.."   # repo root; Freerouting jar expected in tools/freerouting/ (git-ignored)
 J=/opt/homebrew/opt/openjdk/bin/java
 nohup $J -jar tools/freerouting/freerouting-2.5.0.jar -de "$1" -do "$2" \
   --router.autorouter.max_passes=${4:-100} --router.autorouter.ignore_net_classes=fixed \

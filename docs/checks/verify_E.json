@@ -1,0 +1,322 @@
+{
+ "ring_auto": {
+  "pre": 2884,
+  "now": 2884,
+  "identical": true,
+  "tracks_pre": 2517,
+  "vias_pre": 367,
+  "tracks_now": 2517,
+  "vias_now": 367
+ },
+ "footprints_moved": [
+  "C69"
+ ],
+ "keepout_violations": [
+  [
+   "ANT",
+   "CRITICAL_AUTO",
+   "F.Cu",
+   "+3V3",
+   [
+    111.2,
+    320.35,
+    114.550001,
+    323.700001
+   ]
+  ],
+  [
+   "ANT",
+   "FREEROUTE_AUTO",
+   "B.Cu",
+   "/LED_B_3V3",
+   [
+    107.3085,
+    304.1447,
+    127.871401,
+    324.707601
+   ]
+  ],
+  [
+   "ANT",
+   "FREEROUTE_AUTO",
+   "F.Cu",
+   "/LED_C_3V3",
+   [
+    68.0746,
+    321.1298,
+    70.479301,
+    323.534501
+   ]
+  ],
+  [
+   "ANT",
+   "FREEROUTE_AUTO",
+   "F.Cu",
+   "/LED_C_3V3",
+   [
+    68.2065,
+    338.2136,
+    68.938301,
+    338.945401
+   ]
+  ],
+  [
+   "ANT",
+   "FREEROUTE_AUTO",
+   "B.Cu",
+   "/LED_C_DIN",
+   [
+    105.375,
+    304.775,
+    124.025001,
+    323.425001
+   ]
+  ]
+ ],
+ "speaker_outline_FCu_items": 0,
+ "zones": [
+  [
+   "FOTO",
+   [
+    "F.Cu"
+   ]
+  ],
+  [
+   "NFC",
+   [
+    "F.Cu",
+    "B.Cu"
+   ]
+  ],
+  [
+   "GND_BACK",
+   [
+    "B.Cu"
+   ]
+  ]
+ ],
+ "widths": {
+  "CRITICAL_AUTO|+3V3|B.Cu": [
+   0.6
+  ],
+  "CRITICAL_AUTO|+3V3|F.Cu": [
+   0.6
+  ],
+  "CRITICAL_AUTO|+5V|B.Cu": [
+   1.0,
+   1.5
+  ],
+  "CRITICAL_AUTO|+5V|F.Cu": [
+   0.25,
+   0.4,
+   0.5,
+   0.6,
+   1.0,
+   1.5
+  ],
+  "CRITICAL_AUTO|/USB_DM|B.Cu": [
+   0.3
+  ],
+  "CRITICAL_AUTO|/USB_DM|F.Cu": [
+   0.25,
+   0.3
+  ],
+  "CRITICAL_AUTO|/USB_DP|F.Cu": [
+   0.25,
+   0.3
+  ],
+  "CRITICAL_AUTO|/VBUS|B.Cu": [
+   0.4,
+   1.0
+  ],
+  "CRITICAL_AUTO|/VBUS|F.Cu": [
+   0.4,
+   0.5,
+   1.0
+  ],
+  "CRITICAL_AUTO|GND|F.Cu": [
+   0.25,
+   0.3,
+   0.4,
+   0.6
+  ],
+  "CRITICAL_AUTO|Net-(J1-CC1)|B.Cu": [
+   0.25
+  ],
+  "CRITICAL_AUTO|Net-(J1-CC1)|F.Cu": [
+   0.25
+  ],
+  "CRITICAL_AUTO|Net-(J1-CC2)|B.Cu": [
+   0.25
+  ],
+  "CRITICAL_AUTO|Net-(J1-CC2)|F.Cu": [
+   0.25
+  ],
+  "CRITICAL_AUTO|Net-(J101-Pin_1)|F.Cu": [
+   0.25,
+   0.5
+  ],
+  "CRITICAL_AUTO|Net-(J101-Pin_2)|F.Cu": [
+   0.25,
+   0.5
+  ],
+  "CRITICAL_AUTO|Net-(J102-Pin_1)|F.Cu": [
+   0.25,
+   0.5
+  ],
+  "CRITICAL_AUTO|Net-(J102-Pin_2)|F.Cu": [
+   0.25,
+   0.5
+  ],
+  "FREEROUTE_AUTO|+3V3|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|+3V3|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AMP_SD|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AMP_SHDN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AMP_SHDN|F.Cu": [
+   0.187,
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_BCLK|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_BCLK|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_DIN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_DIN|F.Cu": [
+   0.187,
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_WS|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/AUD_WS|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_EN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_EN|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_IO0|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_IO0|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_RX|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_RX|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_TX|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/ESP_TX|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/I2S_BCLK|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/I2S_DOUT|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/I2S_WS|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_A_3V3|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_A_3V3|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_A_DIN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_A_DIN|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_B_3V3|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_B_3V3|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_B_DIN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_B_DIN|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_C_3V3|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_C_DIN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_C_DIN|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_D_3V3|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_D_3V3|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_D_DIN|B.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|/LED_D_DIN|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|GND|F.Cu": [
+   0.4
+  ],
+  "FREEROUTE_AUTO|Net-(Q1-B)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(Q1-E)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(Q2-B)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(Q2-E)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(R13-Pad1)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(R14-Pad1)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(R15-Pad1)|F.Cu": [
+   0.25
+  ],
+  "FREEROUTE_AUTO|Net-(R8-Pad1)|F.Cu": [
+   0.25
+  ]
+ },
+ "counts": {
+  "CRITICAL_AUTO": {
+   "tracks": 210,
+   "vias": 67
+  },
+  "FREEROUTE_AUTO": {
+   "tracks": 435,
+   "vias": 54
+  }
+ }
+}

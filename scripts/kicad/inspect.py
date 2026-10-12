@@ -1,5 +1,5 @@
 import pcbnew, re, sys, collections
-b = pcbnew.LoadBoard("fra_clock.kicad_pcb")
+b = pcbnew.LoadBoard(sys.argv[1] if len(sys.argv) > 1 else "hardware/fra_clock.kicad_pcb")
 mm = pcbnew.ToMM
 ring = re.compile(r'^(D[2-5]\d\d|C[2-5]\d\d)$')
 print("== groups")

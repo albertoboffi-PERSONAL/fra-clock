@@ -1,0 +1,22 @@
+{
+ "FOTO_FCu_tracks": 0,
+ "FOTO_vias": 0,
+ "NFC_any": 0,
+ "ANT_any": 0,
+ "SPK_FCu_new": 0,
+ "SPK_vias_new": 0,
+ "min_gap_FCu_to_FOTO_mm": 0.433,
+ "tracks_by_group_layer": {
+  "RING_AUTO|F.Cu": 2510,
+  "CRITICAL_AUTO|F.Cu": 191,
+  "FREEROUTE_AUTO|F.Cu": 290,
+  "CRITICAL_AUTO|B.Cu": 19,
+  "RING_AUTO|B.Cu": 7,
+  "FREEROUTE_AUTO|B.Cu": 145
+ },
+ "vias_by_group": {
+  "RING_AUTO": 367,
+  "CRITICAL_AUTO": 67,
+  "FREEROUTE_AUTO": 54
+ }
+}
