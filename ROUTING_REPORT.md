@@ -150,3 +150,57 @@ Diversi footprint della libreria KiCad puntavano a modelli 3D che non ci sono ne
 Speaker LS1/LS2: resta il modello che ho costruito io dal disegno Core Electronics (non esiste un 3D ufficiale del CE08483). Senza modello, com'è normale: fori di montaggio, test point, ART1.
 
 Verifiche (`drc_E.json`, `tools/verify_E.json`): 0 errori, 0 unconnected, parità con lo schematico 0, gli stessi 14 `lib_footprint_mismatch` della baseline. `RING_AUTO` identico; nessun componente spostato oltre C69 (§8). Render: `tools/render_E_top.png`, `tools/render_E_iso.png`.
+
+## 10. Gerber e forature (2026-10-12, su tua autorizzazione)
+
+Generati con `kicad-cli` 10.0.5 dalla board al commit `74a49e1` (git pulito), in `production/gerber/`. Pacchetto da caricare: `production/fra_clock_gerber_jlcpcb.zip`.
+
+| Impostazione | Valore |
+|---|---|
+| Layer | F.Cu, B.Cu, F/B.Paste, F/B.Silkscreen, F/B.Mask, Edge.Cuts |
+| Formato | Gerber X2 con attributi netlist, precisione 6, estensioni Protel (`.gtl/.gbl/.gts/...`), silkscreen sottratto dalla maschera, controllo riempimento zone (`--check-zones`) |
+| Forature | Excellon, mm, decimale, origine assoluta, asole in modo "alternate", PTH e NPTH separati, mappe Gerber X2 (non nello zip) |
+| Scheda | 2 layer, 210 × 297 mm, angoli R3 |
+| Fori PTH | 0.30 mm × 483, 0.40 × 17, 0.60 × 4, 3.20 × 6 (M3), 4.30 × 8 (M4) |
+| Fori NPTH | 0.65 mm × 2 (perni USB-C) |
+
+Controllo: render dei Gerber con gerbonara 1.6.3 (`production/gerber_top.png`, `production/gerber_bottom.png`). Rame, maschera, serigrafia, fori e contorno coincidono con la board (foto esposta sul fronte, piano GND sul retro, zone NFC/antenna libere).
+
+Da scegliere al momento dell'ordine (non sono nei Gerber):
+- **Finitura**: ENIG dà la foto dorata e piatta come nei render; con HASL il rame esposto della foto diventa stagno argentato e meno uniforme.
+- **Colore maschera**: determina il contrasto della foto (i render usano il verde).
+- **Spessore** (1.6 mm standard) e **via tented** (default).
+- Via nel pad esposto di U101/U102 non tappate (§5.4): rilevante solo se la scheda viene assemblata/rifusa.
+- BOM e file di piazzamento (CPL) per l'assemblaggio non sono stati generati.
+
+## 11. BOM e CPL per l'assemblaggio JLCPCB (2026-10-12)
+
+File: `production/fra_clock_BOM_JLCPCB.csv` (24 righe, 408 componenti) e `production/fra_clock_CPL_JLCPCB.csv` (408 posizioni, tutte sul lato Top). Generati dalla board con `scripts/production/dump_fps.py` + `scripts/production/make_bom_cpl.py` (rigenerabili).
+
+Esclusi da BOM e CPL: ART1, LS1/LS2 (board-only), fori H1–H14, test point TP1–TP3 (solo pad). Il tag NFC (NFC1 nello schematico, "NTAG216 tag") non ha footprint: è un adesivo da applicare a parte.
+
+| Componenti | LCSC | Codice costruttore | Note |
+|---|---|---|---|
+| 100nF 0402 ×182 | C1525 | CL05B104KO5NNNC | |
+| 100nF 0603 ×4 | C14663 | CC0603KRX7R9BB104 | Basic |
+| 1uF 0603 | C15849 | CL10A105KB8NNNC | |
+| 10uF 0805 ×5 | C15850 | CL21A106KAYNNNE | |
+| 22uF 0805 | C45783 | CL21A226MAQNNNE | Basic, 25 V |
+| 470uF C69 | C82006 | RVT1C471M0810 | 16 V, D8×10.2, Extended |
+| Resistenze 0603 | C25804 / C23186 / C22935 / C23179 / C23140 / C25803 | UNI-ROYAL 0603WAF… | 10k / 5.1k / 1M / 470 / 33 / 100k |
+| F1 PTC 2A | C20812 | SMD1812P200TF16 | hold 2 A, trip 4 A, 16 V |
+| Q1/Q2 | C20526 | MMBT3904 | |
+| Q3 | C8545 | 2N7002 | Basic |
+| U1 | C51118 | AP2112K-3.3TRG1 | Extended |
+| U2 | C7519 | USBLC6-2SC6 | Extended |
+| U3 | C701341 | ESP32-WROOM-32E-N4 | **da confermare la flash**: N8 = C701342, N16 = C701343 |
+| U5 | C84681 | CH340C | Extended |
+| U6 | C554502 | 74AHCT125D,118 | |
+| U101/U102 | C910544 | MAX98357AETE+T | |
+| D201…(180) | C965555 | WS2812B-2020 | |
+| J1 | C165948 | TYPE-C-31-M-12 | |
+| J101/J102 | C295747 | S2B-PH-SM4-TB(LF)(SN) | |
+
+Fonti dei codici: pagine prodotto JLCPCB/LCSC consultate il 2026-10-12 (MPN, valore, package; classe Basic/Extended dove indicata sulla pagina). **Disponibilità a magazzino e prezzi non verificati**: li mostra JLCPCB al caricamento.
+
+CPL: coordinate = origine del footprint KiCad, assolute, Y invertita (stesso sistema dei Gerber); rotazione = orientamento KiCad. Le rotazioni e i centri di alcuni package possono non coincidere con la libreria JLCPCB: nell'anteprima di piazzamento controllare in particolare SOT-23/-5/-6, SOIC-14/16, TQFN (pin 1), WS2812B-2020 (pin 1), ESP32 (antenna verso il bordo), USB-C, JST, polarità di C69.
