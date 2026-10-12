@@ -1,0 +1,250 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-12T07:45:47",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "fra_clock.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D427",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 98.9513
+                    },
+                    "uuid": "2f29915a-0344-46ea-b915-de0ce61439ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D318",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 104.1891
+                    },
+                    "uuid": "46cd991b-1db7-4018-bdbc-73e0eb5d5770"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D317",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 109.4268
+                    },
+                    "uuid": "492b90fe-0587-4a18-aa9e-87349d3a4b5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D319",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 98.9513
+                    },
+                    "uuid": "49624dd7-b229-43c9-a3f6-3b130cee3fb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C428",
+                    "pos": {
+                        "x": 52.15,
+                        "y": 104.1891
+                    },
+                    "uuid": "4d562050-7d68-4960-8fed-edd344c227a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C318",
+                    "pos": {
+                        "x": 257.85,
+                        "y": 104.1891
+                    },
+                    "uuid": "7ffd11ce-a9d5-46a8-ae67-7e3d3ef3a81e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C427",
+                    "pos": {
+                        "x": 52.15,
+                        "y": 98.9513
+                    },
+                    "uuid": "886b84c9-2878-4044-ba2c-ea6a60d8a35e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C319",
+                    "pos": {
+                        "x": 257.85,
+                        "y": 98.9513
+                    },
+                    "uuid": "abe1972a-8a6f-4b36-8569-4c7607f64a17"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D428",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 104.1891
+                    },
+                    "uuid": "b3d6aba2-ad6f-446d-bb4c-439b0ffd0df9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D426",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 93.7135
+                    },
+                    "uuid": "cbe94d59-98e3-4e58-9de6-3171053986b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C426",
+                    "pos": {
+                        "x": 52.15,
+                        "y": 93.7135
+                    },
+                    "uuid": "d95595ae-914d-4f72-afab-15f8a44a2aa9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C216",
+                    "pos": {
+                        "x": 241.4854,
+                        "y": 344.85
+                    },
+                    "uuid": "fc5202e1-f237-47a1-8548-84ead43cb60d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_WS2812B-2020_PLCC4_2.0x2.0mm' does not match copy in library 'LED_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D526",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 329.4131
+                    },
+                    "uuid": "ffd41a0d-fe1a-4b2f-bc77-bd3300b898a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Footprint 'ESP32-WROOM-32E' does not match copy in library 'RF_Module'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 88.75,
+                        "y": 316.77
+                    },
+                    "uuid": "939b609c-f6c2-4577-9a69-aa37237805c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

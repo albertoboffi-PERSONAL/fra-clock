@@ -406,7 +406,7 @@
 			(uuid "5fc23c68-8077-4887-ab46-c318a1151f51")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -852,7 +852,7 @@
 			(uuid "0840a7c2-8a57-4554-8e39-41c1556e774d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1680,7 +1680,7 @@
 			(uuid "0014207a-970a-464d-91a8-48c9bb638a7e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2126,7 +2126,7 @@
 			(uuid "43519eab-13be-4950-be0f-a7e967c38720")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2414,7 +2414,7 @@
 			(uuid "cef5e64d-5699-42a7-871b-06bcaf45693b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2702,7 +2702,7 @@
 			(uuid "5c6aba52-c882-4d2d-b6e0-08023991cbae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2990,7 +2990,7 @@
 			(uuid "dd748629-f377-47db-9f11-723660f97d09")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3278,7 +3278,7 @@
 			(uuid "c3743d99-d6a9-48fd-892e-2b4d9628d6f5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3884,7 +3884,7 @@
 			(uuid "e0079024-2e78-40d9-b9ed-29b5cc15ede1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4172,7 +4172,7 @@
 			(uuid "7c3793da-32ef-4d90-9fe1-3f44df9b9119")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4460,7 +4460,7 @@
 			(uuid "9ba22b0f-66ee-4e00-a043-3f2d539b35c5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5125,7 +5125,7 @@
 			(uuid "d380ef01-8608-4270-a22e-171597eed163")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5731,7 +5731,7 @@
 			(uuid "d0fcef19-9ede-479d-8932-b770226f8682")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6492,7 +6492,7 @@
 			(uuid "cb518d4f-1d06-4a5d-82a7-0f03e7b8441a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6500,7 +6500,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -7096,7 +7096,7 @@
 			(uuid "a5cf751f-88b2-4f4a-92f8-edaa2797bba7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7384,7 +7384,7 @@
 			(uuid "b7535461-8913-4bc0-ad28-ecafca3113ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7672,7 +7672,7 @@
 			(uuid "cda39632-f1a7-4dca-ba74-185eb4acf350")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7962,7 +7962,7 @@
 			(uuid "af56e570-9f7b-4afc-a9d7-ae1c3e2e0ec1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8724,7 +8724,7 @@
 			(uuid "57c18820-d43a-4c55-8474-e738d80f6752")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9328,7 +9328,7 @@
 			(uuid "fb0d128d-19c2-4ad4-8f57-d8d7e8d8821d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9616,7 +9616,7 @@
 			(uuid "c712b716-5ef9-4b47-bbb3-d32ae2539562")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10062,7 +10062,7 @@
 			(uuid "3f38fa34-71fd-4722-b6d4-e796a89db75c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10352,7 +10352,7 @@
 			(uuid "c286d272-acbe-45a8-8ab9-e91235412987")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10898,7 +10898,7 @@
 			(uuid "c08a5ab7-fe8d-4051-a1e3-4908d9fc67df")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11186,7 +11186,7 @@
 			(uuid "46846ad2-1bf7-47fb-ba0d-3a66f0a0b625")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11632,7 +11632,7 @@
 			(uuid "70efe7b0-0833-4938-8e8f-fe91289323c6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12236,7 +12236,7 @@
 			(uuid "01158d8e-502f-4ad2-8799-e1f8b5742e02")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12524,7 +12524,7 @@
 			(uuid "a23eaac7-f84a-4529-aace-79f3509079a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12812,7 +12812,7 @@
 			(uuid "e79a29a7-c4c9-475c-9f41-fb3e0f73cfc7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13416,7 +13416,7 @@
 			(uuid "3c781d47-7eca-4351-8a2b-cb5470e434b0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14020,7 +14020,7 @@
 			(uuid "a1d9f6d5-f51c-496a-9ba6-039e12f848c5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14626,7 +14626,7 @@
 			(uuid "adf51c0e-3817-49d5-9d9d-6c59244f337c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15388,7 +15388,7 @@
 			(uuid "e8e7b623-450d-4b27-a431-619c3f8c9575")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15676,7 +15676,7 @@
 			(uuid "36450bba-8ad9-4112-9599-10fd08a3e145")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16595,7 +16595,7 @@
 			(uuid "9a0869f7-dc33-462e-a1a5-10b1d1b4abe0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16603,7 +16603,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -17329,7 +17329,7 @@
 			(uuid "6a6f5c04-1ce6-4bda-aa9d-9a09f5144170")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17617,7 +17617,7 @@
 			(uuid "417ccbf6-c09b-4f3a-931b-fca775d879b0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18381,7 +18381,7 @@
 			(uuid "8b6cb267-52b8-43b9-bfe2-fcbc4e91b658")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18827,7 +18827,7 @@
 			(uuid "be46258c-224f-476c-a0dd-9c189e3f2745")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -767435,7 +767435,7 @@
 			(uuid "cf8a6b20-0b64-49af-8e42-14028dabd88a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -767723,7 +767723,7 @@
 			(uuid "d6052982-366c-4de4-a527-b1eed937ba90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -768801,7 +768801,7 @@
 			(uuid "032b5232-e260-43c8-b44f-0ffbc50e8083")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -769089,7 +769089,7 @@
 			(uuid "ecefd804-de7c-48fb-95dd-967dc306025a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -770167,7 +770167,7 @@
 			(uuid "a461e44a-cb78-4692-bb77-e0729c181e89")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -770929,7 +770929,7 @@
 			(uuid "135218ab-1c84-4d6a-a7f9-6d83b54f0789")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -771377,7 +771377,7 @@
 			(uuid "32494b6e-ee7b-4259-9221-c9aa4786af77")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -772136,7 +772136,7 @@
 			(uuid "2df4899a-2add-4871-8259-0d3c4070e4a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -772582,7 +772582,7 @@
 			(uuid "00ca6e7d-b006-402c-81dc-4ab2128bda4f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -772870,7 +772870,7 @@
 			(uuid "da9a0414-5d4a-4932-9110-665dc2c7a692")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -773474,7 +773474,7 @@
 			(uuid "bded42bc-9cc6-4b4c-bbc9-b861faf329aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -773922,7 +773922,7 @@
 			(uuid "b5fabfe3-7bb1-4ad6-8a89-b0cb5312cf6a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -774210,7 +774210,7 @@
 			(uuid "392fa902-bc73-42a5-89f6-982d57556dd5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -774658,7 +774658,7 @@
 			(uuid "a72075bb-3d73-4923-954e-4cd340a9b6bd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -774946,7 +774946,7 @@
 			(uuid "f11908dc-12f4-4279-ab47-3e98dd055a7d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -775236,7 +775236,7 @@
 			(uuid "eca3ae7d-afd0-4abb-bcd0-dcfe06ee3fc4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -776318,7 +776318,7 @@
 			(uuid "c2ed6347-9d45-4736-be87-3e9cc568caee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -776922,7 +776922,7 @@
 			(uuid "ae96e171-02d3-4122-bba5-ee53b34b26f3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -777210,7 +777210,7 @@
 			(uuid "eb37ae0e-0bf2-46e7-83fb-8c5f2821868e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -779442,7 +779442,7 @@
 			(uuid "409a3f56-695f-4f07-b85e-4278c8822162")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -779888,7 +779888,7 @@
 			(uuid "8d559e69-2c43-4fe1-865d-3ae94fa90475")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -780334,7 +780334,7 @@
 			(uuid "b6015946-3e90-4ffb-8268-4dd4e90904e9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -781653,7 +781653,7 @@
 			(uuid "b1e88006-6161-4617-9dba-a3cab430c7ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -782099,7 +782099,7 @@
 			(uuid "0c2e521f-1088-4266-917f-823c9d90b0af")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -782863,7 +782863,7 @@
 			(uuid "87409c13-590d-49ed-b523-6a6d09d988c9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -783151,7 +783151,7 @@
 			(uuid "5b3bfe67-e496-4d54-98d6-4ca1ccaf9f0e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -783599,7 +783599,7 @@
 			(uuid "3a5128c3-1d4f-4bcd-a8da-c7146dba4192")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -784203,7 +784203,7 @@
 			(uuid "61e3647d-ac9b-4613-b1fa-d90a80741aa9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -784649,7 +784649,7 @@
 			(uuid "9df49b4d-fcd5-4a80-b9ee-0f76d343fda1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -784937,7 +784937,7 @@
 			(uuid "396b6f5e-a740-494e-b0f0-d02a26802888")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -785641,7 +785641,7 @@
 			(uuid "f3879ffb-1a46-4ae8-9e06-c4b2de97fc5a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -786087,7 +786087,7 @@
 			(uuid "d5dbe523-4b08-427b-b059-2641ebb7faf5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -786375,7 +786375,7 @@
 			(uuid "62e2df00-6462-4ce0-9e05-d8b57d098731")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -786663,7 +786663,7 @@
 			(uuid "2539475a-d74e-4218-8389-b85cbc33aa98")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -787109,7 +787109,7 @@
 			(uuid "ca88ab62-725b-4a1e-94d4-aefa7da99287")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -787397,7 +787397,7 @@
 			(uuid "4d7056d5-cf8f-4c44-b5c3-eb8bd5f29e3f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -787843,7 +787843,7 @@
 			(uuid "0534c37f-d278-48ef-9450-67bba8b25b21")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -788449,7 +788449,7 @@
 			(uuid "0303fc58-0886-492e-8a80-8679891c87cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -789051,15 +789051,15 @@
 			(uuid "24cd278e-b04d-48cc-8505-cfa48fb72d2e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 1.41 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -789497,7 +789497,7 @@
 			(uuid "03f89d1c-1a9d-492d-ad39-016d6dc97e3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -789785,7 +789785,7 @@
 			(uuid "41c87d9e-a3ff-4bb2-9cbf-a463d00ee22f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -790231,7 +790231,7 @@
 			(uuid "8f303802-5ec2-44cb-94a6-9421670731d5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -790677,7 +790677,7 @@
 			(uuid "6f311e02-25f7-49f1-a103-0ceee4ec8727")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -790965,7 +790965,7 @@
 			(uuid "aa7dec5c-8abf-4e65-9999-6d3e0e02a6e1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -791253,7 +791253,7 @@
 			(uuid "50c453e9-3c6d-443b-9e76-0fab924f9ac0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -792733,7 +792733,7 @@
 			(uuid "f430bda4-a7a9-42fb-a756-fd19c4c02368")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -793021,7 +793021,7 @@
 			(uuid "9e0dca58-cf70-4f4e-8d15-75448ba56f3a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -793625,7 +793625,7 @@
 			(uuid "d8905e19-88a6-48cd-9f9b-db95994fb44f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -793915,7 +793915,7 @@
 			(uuid "2524749d-e006-4867-a050-6d3c5a93b868")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -794312,7 +794312,7 @@
 			(uuid "fe2a9747-abac-49dd-842d-58798581d710")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -794758,7 +794758,7 @@
 			(uuid "d5e373f5-9543-4b97-a55b-1635e8174979")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -795524,7 +795524,7 @@
 			(uuid "573d0f68-ddbe-46bd-9629-e39da117cabf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -796174,7 +796174,7 @@
 			(uuid "5ad23747-ba20-441b-8872-c6af96ddd762")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -796780,7 +796780,7 @@
 			(uuid "a4191e27-8955-4382-895c-eefe559d304c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -797068,7 +797068,7 @@
 			(uuid "d23bdc79-a447-4ae6-98d0-92feabb34814")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -797672,7 +797672,7 @@
 			(uuid "5fb0d5f7-af6e-4c08-9d58-d539e8497d38")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -798118,7 +798118,7 @@
 			(uuid "621969b6-0881-49ec-8dd3-409fe1dcb038")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -798406,7 +798406,7 @@
 			(uuid "cac31619-95f3-40be-be02-66994c7f6a1b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -799172,7 +799172,7 @@
 			(uuid "56411bd4-ceba-4b09-b8b1-7c48e78dff90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -799460,7 +799460,7 @@
 			(uuid "d350a631-486d-4197-a40a-37da3fbbb56a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -799906,7 +799906,7 @@
 			(uuid "3b63920d-9fd6-4d8e-81a6-4c83d1075ce8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -800304,7 +800304,7 @@
 			(uuid "cf14a176-2d99-4656-9115-3c465dc5ba5b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -803485,7 +803485,7 @@
 			(uuid "9667d29d-74c6-440e-9497-77740f317562")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -803773,7 +803773,7 @@
 			(uuid "c4f0d354-2bf4-4a43-9341-9e91d4c1285b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -804377,7 +804377,7 @@
 			(uuid "30610396-25d2-4f25-a0ae-effb11b644ff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -805297,7 +805297,7 @@
 			(uuid "33aa8d33-dcdb-4f59-8b91-d1616c2f3e75")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -805585,7 +805585,7 @@
 			(uuid "b6076d14-2ee8-4d55-b74c-32081814287a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -806191,7 +806191,7 @@
 			(uuid "881d3189-9830-4ba9-acab-3cea543d4e54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -806637,7 +806637,7 @@
 			(uuid "1ab8232f-3f94-44db-8330-d47d4c9e513b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -807350,7 +807350,7 @@
 			(uuid "095c3817-605e-4c04-baa0-9916fb70b65d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -807954,7 +807954,7 @@
 			(uuid "6b6161d0-4376-4129-90f8-acf50fec5278")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -808558,7 +808558,7 @@
 			(uuid "24116f38-6e8a-4038-8706-30f08db174e3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -809162,7 +809162,7 @@
 			(uuid "ceb2fa5b-6b56-4328-abd0-54c95638ac83")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -809450,7 +809450,7 @@
 			(uuid "c92da8ca-e422-4f2c-831e-aecd424dbe6c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -809898,7 +809898,7 @@
 			(uuid "759ff9d2-c552-4e11-a5cc-df201e0e36eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -810186,7 +810186,7 @@
 			(uuid "fd39ebdb-a4ee-4ad3-baae-e6cecc7ce859")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -810634,7 +810634,7 @@
 			(uuid "30ed9f34-39a2-4e18-8d18-7fb28909ba37")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -810922,7 +810922,7 @@
 			(uuid "e09b4494-1c4f-4017-b174-0d4cd7595f20")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -811368,7 +811368,7 @@
 			(uuid "478318b5-f39f-4a1b-a89e-d57a598d06e1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -811974,7 +811974,7 @@
 			(uuid "c9b2ea5d-b85b-4e21-ba88-f025e37dc493")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -813052,7 +813052,7 @@
 			(uuid "f681f8f4-3942-4097-aab4-efd4ffc0a2e8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -813340,7 +813340,7 @@
 			(uuid "60e82dd8-2429-4166-ba16-6b95b451aa95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -813786,7 +813786,7 @@
 			(uuid "e624e307-27ac-4532-9709-83b7fdc9c318")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -814232,7 +814232,7 @@
 			(uuid "2a75a8ba-d4dd-4e9b-978f-f308e6ff45a1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -814520,7 +814520,7 @@
 			(uuid "aa00aef2-761c-4dbe-bf6b-aefbf6e52483")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -815012,7 +815012,7 @@
 			(uuid "ce046118-84b4-4a6a-8592-97017e5d7060")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -815618,7 +815618,7 @@
 			(uuid "9bf414f3-faf9-4208-9615-8f16494230fc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -816696,7 +816696,7 @@
 			(uuid "9d0b8f8c-3199-4cf5-8e47-c3742fa02106")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -816984,7 +816984,7 @@
 			(uuid "2e7b4ad2-db49-4765-b58b-9b2178c112eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -817588,7 +817588,7 @@
 			(uuid "5f695a91-90e6-4ea2-ae19-ed4d71ad263e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -818036,7 +818036,7 @@
 			(uuid "f9150109-de27-4e74-9b53-1872075e239c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -818324,7 +818324,7 @@
 			(uuid "4cc90532-a225-4213-a83d-e0675d332463")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -818612,7 +818612,7 @@
 			(uuid "686ee6ef-739d-476b-9465-3c6260c4c862")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -818900,7 +818900,7 @@
 			(uuid "28d0c2aa-2c20-492e-827d-8b0e4e2ab70d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -819504,7 +819504,7 @@
 			(uuid "7038c12a-3a0e-40f9-aba3-848adf98788b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -819792,7 +819792,7 @@
 			(uuid "84071495-8bce-4fa4-9d0c-7aceb3dde067")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -820080,7 +820080,7 @@
 			(uuid "780b33e5-5b3a-4c9b-8548-eff233a46dc2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -820528,7 +820528,7 @@
 			(uuid "3d8e37a3-1e3a-45e1-86fa-f25acc6cc0f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -820816,7 +820816,7 @@
 			(uuid "4abdb89a-b864-492e-8384-5a6b4fd519fc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -821262,7 +821262,7 @@
 			(uuid "4916b4ad-0fe0-4cdd-abf1-11a73c713fa8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -821550,7 +821550,7 @@
 			(uuid "604cb83c-bc87-44e2-a59e-c06b91f27055")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -821838,7 +821838,7 @@
 			(uuid "ae038f26-ecf5-4c5d-ae8a-11b37b1fec80")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -822126,7 +822126,7 @@
 			(uuid "d806de37-1cd1-42c0-9acf-9f97b9e780b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -822572,7 +822572,7 @@
 			(uuid "7e7af116-6033-4f05-a62c-4a66a194ed38")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -823492,7 +823492,7 @@
 			(uuid "28a0cb9f-9f8c-4d95-8eed-e90cce038d01")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -823780,7 +823780,7 @@
 			(uuid "67d1e2eb-cbee-407f-920e-34095ac290cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -824226,7 +824226,7 @@
 			(uuid "1e581df7-6dd6-42e4-8ee0-398e4477de7b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -824514,7 +824514,7 @@
 			(uuid "f870e907-1684-47be-b678-1bb87acf943f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -824913,7 +824913,7 @@
 			(uuid "43237385-f9a2-4456-8f3f-0cc0eed6f107")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -825519,7 +825519,7 @@
 			(uuid "6416a05f-ac98-42a8-bdbb-25445dc243fe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -826185,7 +826185,7 @@
 			(uuid "5877dadb-3fbc-4416-9c85-526263a9b544")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -827105,7 +827105,7 @@
 			(uuid "fd418171-f5bb-4753-acfe-48c2535df0b8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -827867,7 +827867,7 @@
 			(uuid "c47c0936-dc33-41de-9fda-93408101e8fb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -828899,7 +828899,7 @@
 			(uuid "14868764-4c9e-42b7-804e-f76c76eb761c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -829189,7 +829189,7 @@
 			(uuid "d56d6a0f-aac4-4b87-a308-2491e00a12ad")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -829635,7 +829635,7 @@
 			(uuid "9de3daf0-91f4-4b09-a513-a26a864e104b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -829923,7 +829923,7 @@
 			(uuid "02fa92cb-ad7b-4086-ab95-10bc55398571")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -830369,7 +830369,7 @@
 			(uuid "475efa56-b4db-4f9c-88b3-2e4024b7c72d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -830975,7 +830975,7 @@
 			(uuid "248cb040-7e00-4b2f-8f57-1543df92860e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -831373,7 +831373,7 @@
 			(uuid "33e1956a-b001-4d0b-91c2-7df9ae1c2d6a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -831819,7 +831819,7 @@
 			(uuid "b55bfc9d-9c76-4b3b-9c02-e0f6b63639ab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -832107,7 +832107,7 @@
 			(uuid "9afdbb57-c4c0-4928-89cd-2a28c367def5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -832423,7 +832423,7 @@
 			(uuid "0a5b3a64-23c1-4f77-8529-f7530c5742bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -832869,7 +832869,7 @@
 			(uuid "004f3b48-6a49-4985-b86e-8ebcb1ceb988")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -833631,7 +833631,7 @@
 			(uuid "5c143cfe-7dbc-4e36-9329-64d1011fdd79")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -833919,7 +833919,7 @@
 			(uuid "1c8cb7e3-a6f7-43d6-a5bb-a52b16222757")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -834209,7 +834209,7 @@
 			(uuid "f9d474da-ad36-4ebe-80db-396290d12d49")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -834657,7 +834657,7 @@
 			(uuid "89944ba8-5f8b-4e45-b2ce-2e89868b79dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -834945,7 +834945,7 @@
 			(uuid "6af64967-ff2c-4f6f-b137-31818c9ba2d6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -835233,7 +835233,7 @@
 			(uuid "db77641a-5b26-4bc1-88e7-2f169113c655")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -835630,7 +835630,7 @@
 			(uuid "ac915f0f-b499-42e8-9dee-697f250e627f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -835918,7 +835918,7 @@
 			(uuid "4ecbee91-3ba9-4649-9efa-6b81266ecb46")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -836686,7 +836686,7 @@
 			(uuid "f39740b0-44ec-4772-ad84-dcd93e6fc2f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -836976,7 +836976,7 @@
 			(uuid "7b3405f9-ab6a-49c2-a617-d89fdd934d43")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -837264,7 +837264,7 @@
 			(uuid "7a2b86d8-0947-40a3-ac6e-8f94f52b6536")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -837552,7 +837552,7 @@
 			(uuid "0274af9f-9fe4-4dce-9e82-0f3861534af8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -838000,7 +838000,7 @@
 			(uuid "47fb4af3-3bbb-468a-b65f-eec79667f808")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -838290,7 +838290,7 @@
 			(uuid "9ee055a8-539f-4cec-9a8a-224492f6b82e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -838578,7 +838578,7 @@
 			(uuid "6d91fbe2-301c-45bc-b2ca-dd8d83215f63")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -839488,7 +839488,7 @@
 			(uuid "ddc49754-ab18-45e5-a951-c4250ff9bf0a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -839934,7 +839934,7 @@
 			(uuid "74b4d5c0-405b-44c7-8727-ef6aff981b8d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -840380,7 +840380,7 @@
 			(uuid "a3ccacdd-3f21-40f7-a717-6392f9324824")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -841144,7 +841144,7 @@
 			(uuid "d78287b6-c780-47dd-89bb-d7eee19313ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -841590,7 +841590,7 @@
 			(uuid "60409b3a-aeee-4d61-bb98-312b1fdceb64")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -841878,7 +841878,7 @@
 			(uuid "4e31f13d-c9eb-492a-998e-408796f1c9a3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -842168,7 +842168,7 @@
 			(uuid "c1fa94db-ce74-4f3d-bbc3-b272d5327d41")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -842456,7 +842456,7 @@
 			(uuid "f2713f74-a43d-4ced-8206-3cdf59549259")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/3d/lcsc/lcsc.3dshapes/LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)

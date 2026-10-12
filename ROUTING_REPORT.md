@@ -134,3 +134,19 @@ Verifiche dopo §8 (`drc_D.json`, `tools/verify_D.json`, `tools/keepcheck_D.json
 | Rame F.Cu / via in FOTO, rame in NFC/antenna, rame nuovo F.Cu sotto gli speaker | 0 / 0 / 0 / 0 |
 
 Note: la sezione "Rame in antenna" di `verify.py` segnala 5 elementi solo per sovrapposizione di bounding-box (stessa lista già in `verify_B.json`); il controllo geometrico preciso (`keepcheck`) dà 0. I render 3D sono in `tools/render_D_top.png`, `tools/render_D_iso.png`, `tools/render_D_bottom.png` (esclusi da git).
+
+## 9. Modelli 3D mancanti (2026-10-12)
+
+Diversi footprint della libreria KiCad puntavano a modelli 3D che non ci sono nella libreria 3D di KiCad 10.0.5 installata. Ho scaricato i modelli da LCSC/EasyEDA con `easyeda2kicad` 1.0.1 (installato da te): file STEP + WRL in `3d/lcsc/lcsc.3dshapes/`. Li ho assegnati ai footprint della scheda con `scripts/art/set_models.py`.
+
+| Rif. | Componente | Codice LCSC | Modello | Offset / rotazione |
+|---|---|---|---|---|
+| J1 | HRO TYPE-C-31-M-12 | C165948 | `USB-C_SMD-TYPE-C-31-M-12_1.step` | Y +1.41 mm, Z 180° (allineato su fori SH/NPTH) |
+| J101, J102 | JST S2B-PH-SM4-TB | C295747 | `CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN.step` | 0 / 0° |
+| 180 LED dell'anello (D2xx–D5xx) | WS2812B-2020 | C965555 | `LED-SMD_4P-L2.0-W2.0-H0.8-TL_WS2812B-2020.step` | 0 / 0° |
+| U101, U102 | MAX98357A TQFN-16 3×3 | C910544 | `TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5.step` | 0 / Z 90° (pin 1 verificato nel render) |
+| F1 | fusibile 1812 | — | `${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.step` (generico) | 0 / 0° |
+
+Speaker LS1/LS2: resta il modello che ho costruito io dal disegno Core Electronics (non esiste un 3D ufficiale del CE08483). Senza modello, com'è normale: fori di montaggio, test point, ART1.
+
+Verifiche (`drc_E.json`, `tools/verify_E.json`): 0 errori, 0 unconnected, parità con lo schematico 0, gli stessi 14 `lib_footprint_mismatch` della baseline. `RING_AUTO` identico; nessun componente spostato oltre C69 (§8). Render: `tools/render_E_top.png`, `tools/render_E_iso.png`.
